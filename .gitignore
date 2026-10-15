@@ -1,0 +1,55 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Editor/IDE
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-*
+tags
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.coverage
+.cache/
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+*.html
+
+# Virtual environments
+venv/
+tensortrade-env/
+.env/
+
+# Training artifacts
+ray_results/
+
+# Temporary data files (root level only)
+/*.csv
+!examples/**/*.csv
+
+# IDE memory/context
+memory-bank/
+
+# Agent storage
+examples/agents/
+examples/training_logs/
+
+# Pipenv
+Pipfile
+Pipfile.lock
